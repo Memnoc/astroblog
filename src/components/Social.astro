@@ -1,13 +1,27 @@
 ---
+import { Icon } from "astro-icon";
 const { platform, username } = Astro.props;
 ---
 
-<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+<a href={`https://www.${platform}.com/${username}`}>
+  <Icon name={`prime:${platform}`} />
+</a>
+<!-- <Icon name="prime:facebook" /> -->
+<!-- <Icon name="prime:github" /> -->
+
 <style>
   a {
     padding: 0.5rem 1rem;
     color: white;
-    background-color: #4c1d95;
+    /* background-color: #d08770; */
     text-decoration: none;
+  }
+</style>
+<style lang="css">
+  [astro-icon] {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    color: white;
   }
 </style>

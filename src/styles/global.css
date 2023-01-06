@@ -1,6 +1,7 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #434C5E;
   font-family: sans-serif;
+  color: #ECEFF4;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
+  color: #E5E9F0;
 }
 
 /* nav styles */
@@ -31,7 +33,7 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #81A1C1;
 }
 
 
@@ -39,7 +41,7 @@ h1 {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: #81A1C1;
   display: none;
   margin: 0;
 }
@@ -52,10 +54,14 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: #81A1C1;
+
 }
 
 .nav-links a:hover, a:focus {
-  background-color: #ff9776;
+  background-color: #EBCB8B;
+  border-radius: 4px;
+  opacity: 1.5;
 }
 
 
@@ -75,6 +81,7 @@ h1 {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+
   }
 
 .hamburger {

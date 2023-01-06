@@ -2,10 +2,10 @@
 import "../styles/global.css";
 import BaseLayout from "../layout/BaseLayout.astro";
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "Matteo",
+  country: "Ireland",
+  occupation: "Software Engineer",
+  hobbies: ["painting", "olympic weightlifting", "custom keyboards"],
 };
 const pageTitle = "About Section";
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
@@ -13,25 +13,10 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 const happy = true;
 const finished = false;
 const goal = 3;
-
-const skillColor = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <style define:vars={{ skillColor, fontWeight, textCase }}>
-    h1 {
-      color: purple;
-      /* font-size: 4rem; */
-    }
-    .skill {
-      color: var(--skillColor);
-      font-weight: var(--fontWeight);
-      text-transform: var(--textCase);
-    }
-  </style>
-  <h2>... and my new Astro site!</h2>
+  <h2>Few things about me</h2>
 
   <p>
     I am working through Astro's introductory tutorial. This is the second page
@@ -62,7 +47,7 @@ const textCase = "uppercase";
   </ul>
   <p>My skills are:</p>
   <ul>
-    {skills.map((skill) => <li class="skill">{skill}</li>)}
+    {skills.map((skill) => <li class=" ">{skill}</li>)}
   </ul>
   {happy && <p>I am happy to be learning Astro!</p>}
   {finished && <p>I finished this tutorial!</p>}

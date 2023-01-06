@@ -39,11 +39,11 @@ h1 {
 
 .nav-links {
   width: 100%;
-  top: 5rem;
-  left: 48px;
+  /* top: 5rem; */
+  /* left: 48px; */
   background-color: #81A1C1;
   display: none;
-  margin: 0;
+  margin-left: -20px;
 }
 
 .nav-links a {
@@ -60,10 +60,9 @@ h1 {
 
 .nav-links a:hover, a:focus {
   background-color: #EBCB8B;
-  border-radius: 4px;
+  border-radius: 4rem;
   opacity: 1.5;
 }
-
 
 .expanded {
   display: unset;
@@ -71,7 +70,7 @@ h1 {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    /* margin-left: 5em; */
     display: block;
     position: static;
     width: auto;
@@ -86,7 +85,7 @@ h1 {
 
 .hamburger {
   display: none;
-}
+  }
 
 
 }

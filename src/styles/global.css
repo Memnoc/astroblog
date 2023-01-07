@@ -62,15 +62,35 @@ h1 {
 
 }
 
-.nav-links a:hover, a:focus {
-  background-color: #EBCB8B;
-  border-radius: 4rem;
-  opacity: 1.5;
-}
+/* .nav-links a:hover, a:focus { */
+/*   background-color: rgba(255, 255, 0, 0.2); */
+/*   border-radius: 2rem; */
+/*   /* opacity: 1.5; */ */
+/* } */
 
 .expanded {
   display: unset;
 }
+
+/* tag styles */
+ a {
+    color: #00539F;
+  }
+        
+  .tags {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0 auto;  
+  }
+
+  .tag {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: .5em;
+    padding: .5em 1em;
+    font-size: 1.15em;
+    background-color: #F8FCFD;
+  }
 
 @media screen and (min-width: 636px) {
   .nav-links {

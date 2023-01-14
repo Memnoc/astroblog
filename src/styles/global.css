@@ -1,10 +1,10 @@
 html {
-  background-color: #434C5E;
   font-family: sans-serif;
   color: #ECEFF4;
 }
 
 body {
+  background-color: #313234;
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
@@ -109,4 +109,13 @@ h1 {
 .hamburger {
   display: none;
   }
+}
+
+.dark body {
+  background-color: #11111b;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }

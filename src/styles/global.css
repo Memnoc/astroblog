@@ -1,10 +1,10 @@
 html {
   font-family: sans-serif;
-  color: #ECEFF4;
+
 }
 
 body {
-  background-color: #313234;
+  background-color: #eceff4;
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
@@ -41,7 +41,6 @@ h1 {
   background-color: #81A1C1;
 }
 
-
 .nav-links {
   width: 100%;
   display: none;
@@ -57,7 +56,6 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   color: #81A1C1;
-
 }
 
 .nav-links a:hover, a:focus {
@@ -103,7 +101,6 @@ h1 {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
-
   }
 
 .hamburger {
@@ -117,5 +114,6 @@ h1 {
 }
 
 .dark .nav-links a {
-  color: #fff;
+  color: #d08770;
 }
+

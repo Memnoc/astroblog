@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import BaseLayout from "../layout/BaseLayout.astro";
+import Image from "../components/Image.astro";
 const identity = {
   firstName: "Matteo",
   country: "Ireland",
@@ -15,21 +16,11 @@ const goal = 3;
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Few things about me</h2>
-  <p>
-    I am working through Astro's introductory tutorial. This is the second page
-    on my website, and it's the first one I built myself!
-  </p>
-
-  <p>
-    This site will update as I complete more of the tutorial, so keep checking
-    back and see how my journey is going!
-  </p>
-
-  {happy && <p>I am happy to be learning Astro!</p>}
-
-  {finished && <p>I finished this tutorial!</p>}
-  <p>Here are a few facts about me:</p>
+  <img
+    class="float-right"
+    src="../../public/Matteo-profile-circle.png"
+    alt="avatar"
+  />
   <ul>
     <li>My name is {identity.firstName}.</li>
     <li>
@@ -47,13 +38,13 @@ const goal = 3;
   <ul>
     {skills.map((skill) => <li class=" ">{skill}</li>)}
   </ul>
-  {happy && <p>I am happy to be learning Astro!</p>}
-  {finished && <p>I finished this tutorial!</p>}
-  {
-    goal === 3 ? (
-      <p>My goal is to finish in 3 days.</p>
-    ) : (
-      <p>My goal is not 3 days.</p>
-    )
-  }
+  <!-- {happy && <p>I am happy to be learning Astro!</p>} -->
+  <!-- {finished && <p>I finished this tutorial!</p>} -->
+  <!-- { -->
+  <!--   goal === 3 ? ( -->
+  <!--     <p>My goal is to finish in 3 days.</p> -->
+  <!--   ) : ( -->
+  <!--     <p>My goal is not 3 days.</p> -->
+  <!--   ) -->
+  <!-- } -->
 </BaseLayout>

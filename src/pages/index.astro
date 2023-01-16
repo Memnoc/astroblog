@@ -1,0 +1,15 @@
+---
+import "../styles/global.css";
+import HomeLayout from "../layout/HomeLayout.astro";
+import Greeting from "../components/Greetings";
+const pageTitle = "Home Page";
+---
+
+<HomeLayout pageTitle={pageTitle}>
+  <h2>A tech blog...or is it?</h2>
+  <h4>
+    Check out the post sections for the latest discussions, and get in touch if
+    you want to talk to me or tell me I am very wrong about something :)
+  </h4>
+  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+</HomeLayout>

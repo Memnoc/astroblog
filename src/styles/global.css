@@ -117,3 +117,7 @@ h1 {
   color: #d08770;
 }
 
+.dark [astro-icon] {
+  color: #d08770;
+}
+

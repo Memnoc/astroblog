@@ -1,9 +1,10 @@
 ---
 const { title, url } = Astro.props;
+const time = new Date();
 ---
 
 <ul class="post-title-container">
-  <li>
-    <a href={url}>{title}</a>
+  <li class="list-disc">
+    <a href={url}>{time.toDateString()}{title}</a>
   </li>
 </ul>

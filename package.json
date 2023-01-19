@@ -12,8 +12,11 @@
   },
   "dependencies": {
     "@astrojs/preact": "^1.2.0",
+    "@astrojs/rss": "^2.0.0",
+    "@astrojs/tailwind": "^2.1.3",
     "astro": "^1.9.0",
-    "preact": "^10.11.3"
-  },
-  "devDependencies": {}
+    "astro-icon": "^0.8.0",
+    "preact": "^10.11.3",
+    "tailwindcss": "^3.2.4"
+  }
 }

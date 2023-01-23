@@ -3,17 +3,23 @@ import BlogPost from "../components/BlogPost.astro";
 import BaseLayout from "../layout/BaseLayout.astro";
 import "../styles/global.css";
 
-const pageTitle = "Blog";
+const pageTitle = "Blog List";
+
 const allPosts = await Astro.glob("../pages/posts/*.md");
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <h3>A list of all the stuff I like to talk about</h3>
+<BaseLayout pageTitle={`${pageTitle} |||||||||||||`}>
+  <h6>Show more</h6>
   <br />
 
   {
     allPosts.map((post) => (
-      <BlogPost url={post.url} title={post.frontmatter.title} />
+      <BlogPost
+        title={post.frontmatter.title}
+        author={post.frontmatter.author}
+        url={post.url}
+        date={post.frontmatter.pubDate}
+      />
     ))
   }
 </BaseLayout>

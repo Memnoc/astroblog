@@ -1,10 +1,31 @@
 ---
-const { title, url } = Astro.props;
-const time = new Date();
+const { title, url, date, author } = Astro.props;
 ---
 
+<style>
+  .post-title-container {
+    display: flex;
+    color: #d8dee9;
+  }
+
+  .post-title-container li a {
+    color: orange;
+  }
+  .list-disc {
+    list-style-type: none;
+
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  a {
+    font-size: 2rem;
+    color: #d08770;
+    background-color: yellow;
+  }
+</style>
 <ul class="post-title-container">
   <li class="list-disc">
-    <a href={url}>{time.toDateString()}{title}</a>
+    <p class="date-author">{date} {author}</p>
+    <a href={url}>{title}</a>
   </li>
 </ul>

@@ -23,8 +23,9 @@ h1 {
 }
 
 .post-title-container li a {
-  color: #fff;
+  color: #d08770;
   background-color: transparent;
+  font-weight: bold;
 }
 
 /* nav styles */

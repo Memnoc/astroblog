@@ -1,16 +1,12 @@
 ---
-const { title, url, date, author } = Astro.props;
+const { title, url, date, author, description } = Astro.props;
 ---
 
 <style>
   .post-title-container {
     display: flex;
-    color: #d8dee9;
   }
 
-  .post-title-container li a {
-    color: orange;
-  }
   .list-disc {
     list-style-type: none;
 
@@ -20,12 +16,30 @@ const { title, url, date, author } = Astro.props;
   a {
     font-size: 2rem;
     color: #d08770;
-    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .date-author {
+    font-style: oblique;
+    color: #81a1c1;
+  }
+
+  .description {
+    color: #b48ead;
+  }
+
+  .post-title-container li a {
+    color: #81a1c1;
   }
 </style>
 <ul class="post-title-container">
   <li class="list-disc">
-    <p class="date-author">{date} {author}</p>
     <a href={url}>{title}</a>
+    <hr class="solid" />
+    <!-- <hr class="dashed" /> -->
+
+    <p class="date-author">{date} {author}</p>
+    <p class="description">{description}</p>
   </li>
 </ul>
+<br />

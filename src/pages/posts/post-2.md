@@ -1,8 +1,8 @@
 ---
 layout: ../../layout/MarkdownPostLayout.astro
-title: 'My Second Blog Post'
-pubDate: '2023-07-01'
-description: 'This is the first post of my new Astro blog.'
+title: 'Building a ChatGPT JavaScript helper'
+pubDate: 2023-07-01'
+description: 'I need a buddy to study sometimes, but humans are not always available...ooo'
 author: 'Astro Learner'
 image:
     url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg' 

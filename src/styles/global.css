@@ -2,9 +2,9 @@ html {
   font-family: sans-serif;
 
 }
-
+/* we set the light bg here */
 body {
-  background-color: #eceff4;
+  background-color: #E5E9F0;
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
@@ -22,7 +22,7 @@ h1 {
   color: #5E81AC;
 }
 
-.post-title-container li a {
+.dark .post-title-container li a {
   color: #d08770;
   background-color: transparent;
   font-weight: bold;
@@ -59,12 +59,11 @@ h1 {
   color: #81A1C1;
 }
 
-.nav-links a:hover, a:focus {
-  background-color: #333;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  /* opacity: 1.5; */
-}
+/* .nav-links a:hover, a:focus { */
+/*   background-color: #333; */
+/*   border-radius: 0.5rem; */
+/*   padding: 0.5rem 1rem; */
+/* } */
 
 .expanded {
   display: block;
@@ -72,7 +71,7 @@ h1 {
 
 /* tag styles */
  a {
-    color: #00539F;
+    color: #4c566a;
   }
  
   .tags {
@@ -81,14 +80,38 @@ h1 {
     margin: 0 auto;  
   }
 
+  p {
+    color: #5e81ac;
+  }
+
   .tag {
     margin: 0.25em;
-    border: dotted 1px #a1a1a1;
+    /* border: dotted 1px #a1a1a1; */
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
-    background-color: #F8FCFD;
+    /* background-color: #F8FCFD; */
   }
+
+/* Dividers styles */
+/* Dashed border */
+/* hr.dashed { */
+/*   border-top: 3px dashed #bbb; */
+/* } */
+
+
+/*   border-top: 3px dotted #bbb; */
+/* } */
+
+/* Solid border */
+hr.solid {
+  border-top: 1px solid #81a1c1;
+}
+
+
+/*   border-top: 8px solid #bbb; */
+/*   border-radius: 5px; */
+/* } */
 
 @media screen and (min-width: 636px) {
   .nav-links {
@@ -108,9 +131,9 @@ h1 {
   display: none;
   }
 }
-
+/* we set the dark background here */
 .dark body {
-  background-color: #11111b;
+  background-color: #2E3440;
   color: #fff;
 }
 
@@ -126,3 +149,10 @@ h1 {
   color: #d08770; 
 }
 
+.dark .description {
+  color: #d8dee9;
+}
+
+.dark hr.solid {
+  border-top: 1px solid #d08770;
+} 

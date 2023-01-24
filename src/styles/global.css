@@ -44,7 +44,7 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-  color: var(--dark-blue);
+  color: var(--kinda-fucsia);
 }
 
 h2 {
@@ -53,14 +53,14 @@ h2 {
 }
 
 h3 {
-  color: var(--lighter-grey)
+  color: var(--kinda-orange)
 }
 
-.dark .post-title-container li a {
-  color: var(--kinda-orang);
-  background-color: transparent;
-  font-weight: bold;
-}
+/* * .dark .post-title-container li a { */ */
+/*   color: var(--kinda-fucsia); */
+/*   background-color: transparent; */
+/*   font-weight: bold; */
+/* } */
 
 /* nav styles */
 .hamburger {
@@ -90,7 +90,7 @@ h3 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #81A1C1;
+  color: var(--kinda-fucsia);
 }
 
 /* .nav-links a:hover, a:focus { */

@@ -1,10 +1,34 @@
+/* Nord theme palette -> https://www.nordtheme.com/docs/colors-and-palettes*/
+:root {
+/* Polar Night */
+  --almost-black: #2E3440;
+  --dark-grey: #3B4252;
+  --light-gray: #434C5E;
+  --lighter-gray: #4C566A;
+/* Snow Storm */
+  --light-snow: #eceff4;
+  --medium-snow: #e5e9f0;
+  --cloudy-snow: #d8dee9;
+/* Frost */
+  --kale-green: #8fbcbb;
+  --sky-blue: #88c0d0;
+  --irish-sky: #81a1c1;
+  --dark-blue: #5e81ac;
+/* Aurora */
+  --very-red: #bf616a;
+  --kinda-orange: #d08770;
+  --yellow: #ebcb8b;
+  --matte-green: #a3be8c;
+  --kinda-fucsia: #b48ead;
+}
+
 html {
   font-family: sans-serif;
 
 }
 /* we set the light bg here */
 body {
-  background-color: #E5E9F0;
+  background-color: var(--medium-grey);
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
@@ -20,11 +44,20 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-  color: #5E81AC;
+  color: var(--dark-blue);
+}
+
+h2 {
+  color: var(--dark-blue);
+
+}
+
+h3 {
+  color: var(--lighter-grey)
 }
 
 .dark .post-title-container li a {
-  color: #d08770;
+  color: var(--kinda-orang);
   background-color: transparent;
   font-weight: bold;
 }
@@ -82,7 +115,7 @@ h1 {
   }
 
   p {
-    color: #5e81ac;
+    color: var(--dark-blue);
   }
 
   .tag {
@@ -114,6 +147,12 @@ hr.solid {
 /*   border-radius: 5px; */
 /* } */
 
+/* Greeting Button */
+.greeting-button {
+  background-color: #b48ead;
+  color: #eceff4;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     /* margin-left: 5em; */
@@ -139,15 +178,23 @@ hr.solid {
 }
 
 .dark .nav-links a {
-  color: #d08770;
+  color: var(--kinda-orange);
 }
 
 .dark [astro-icon] {
-  color: #d08770;
+  color: var(--kinda-orange);
 }
 
 .dark h1 {
-  color: #d08770; 
+  color: var(--kinda-orange); 
+}
+
+.dark h2 {
+  color: #5e81ac; 
+}
+
+.dark h3 {
+color: var(--medium-grey);
 }
 
 .dark .description {
@@ -155,5 +202,15 @@ hr.solid {
 }
 
 .dark hr.solid {
-  border-top: 1px solid #d08770;
+  border-top: 1px solid var(--kinda-orange);
 } 
+
+/* Greeting Button */
+.dark .greeting-button {
+  background-color: #ebcb8b;
+  color: #3b4252;
+}
+
+#themeToggle {
+  color: var(--yellow);
+}

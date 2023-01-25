@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import HomeLayout from "../layout/HomeLayout.astro";
-import Greeting from "../components/Greetings";
+import Greetings from "../components/Greetings.astro";
 const pageTitle = "Home";
 ---
 
@@ -17,5 +17,7 @@ const pageTitle = "Home";
     you want to talk to mie or tell me I am very wrong about something :)
   </p>
   <br />
-  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+  <Greetings />
+  <!-- <Quotes client:load /> -->
+  <!-- <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} /> -->
 </HomeLayout>

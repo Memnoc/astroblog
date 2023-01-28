@@ -4,10 +4,7 @@ title: 'Astro is a game changer'
 pubDate: '2022-07-01'
 description: 'Why astro can be the next React.js'
 author: 'Matteo Stara'
-image:
-    url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg' 
-    alt: 'The Astro logo with the word One.'
-tags: ["trends", "typescript", "javascript", "react", "setup", "learning"]
+tags: ["trends", "typescript", "astro", "frontend"]
 ---
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.

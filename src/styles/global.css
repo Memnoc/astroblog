@@ -99,7 +99,7 @@ h3 {
 
 /* tag styles */
  a {
-    color: #4c566a;
+    color: var(--kinda-fucsia);
   }
  
   .tags {
@@ -177,6 +177,10 @@ hr.solid {
 
 .dark [astro-icon] {
   color: var(--kinda-orange);
+}
+
+.dark a {
+  color: var(--kale-green);
 }
 
 .dark p {

@@ -9,9 +9,6 @@ const identity = {
 };
 const pageTitle = "About Me";
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-const happy = true;
-const finished = false;
-const goal = 3;
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -20,30 +17,41 @@ const goal = 3;
     src="../../public/Matteo-profile-circle.png"
     alt="avatar"
   />
-  <ul>
-    <li>My name is {identity.firstName}.</li>
-    <li>
-      I live in {identity.country} and I work as a {identity.occupation}.
-    </li>
-    {
-      identity.hobbies.length >= 2 && (
-        <li>
-          Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}
-        </li>
-      )
-    }
-  </ul>
-  <p>My skills are:</p>
-  <ul>
-    {skills.map((skill) => <li class=" ">{skill}</li>)}
-  </ul>
-  <!-- {happy && <p>I am happy to be learning Astro!</p>} -->
-  <!-- {finished && <p>I finished this tutorial!</p>} -->
-  <!-- { -->
-  <!--   goal === 3 ? ( -->
-  <!--     <p>My goal is to finish in 3 days.</p> -->
-  <!--   ) : ( -->
-  <!--     <p>My goal is not 3 days.</p> -->
-  <!--   ) -->
-  <!-- } -->
+  <h2>Just me stuff</h2>
+  <p>
+    Myb name is Matteo and I am softwre engineer specialized in front-end
+    frameworks. My current obsession is React, but that's gonna change soon :D I
+    am old enough to know what a VHS cassette player is and also to appreciate
+    90's hits!
+  </p>
+  <br />
+  <h2>My academic education</h2>
+  <p>
+    I have a Master's degree in linguistics and I speak around six languages,
+    natural ones, that is (but talk to me in English or Italian).
+  </p>
+  <br />
+  <h2>My programming journey</h2>
+  <p>
+    I love Java and I learned quite a bit of it for Android development, did a
+    bit of Kotlin too and then switched to JavaScript with a classic frontend
+    stack. I am now using React for my main projects, but this particular blog
+    was built using Astro, and I am very much enjoing the experience so far! My
+    passion for software started in the XDA developer community where I started
+    porting Mobile OS from newer phones to older ones - HTC was my main target
+    at the time, but then I quicly discovered the existence of CyanogenMod and
+    its open source community, and tha changed my life.
+  </p>
+  <br />
+  <h2>Linux Linux Linux</h2>
+  <p>
+    I work for big tech so I have to use macOS, and I really like it, but my
+    passion and love goes to Linux. This blog was developed on Arch (BTW) and I
+    loved every second of it.
+  </p>
+  <br />
+  <p>
+    I am also a digital painter, checkout my instagram account @mattestar_art to
+    see my work.
+  </p>
 </BaseLayout>

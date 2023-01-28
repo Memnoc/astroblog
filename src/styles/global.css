@@ -179,12 +179,16 @@ hr.solid {
   color: var(--kinda-orange);
 }
 
+.dark p {
+  color: var(--medium-grey);
+}
+
 .dark h1 {
   color: var(--kinda-orange); 
 }
 
 .dark h2 {
-  color: #5e81ac; 
+  color: var(--kale-green); 
 }
 
 .dark h3 {

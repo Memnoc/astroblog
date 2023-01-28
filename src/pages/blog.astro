@@ -8,8 +8,7 @@ const pageTitle = "The Tech Stuff";
 const allPosts = await Astro.glob("../pages/posts/*.md");
 ---
 
-<BaseLayout pageTitle={`${pageTitle} |||`}>
-  <p>Show more</p>
+<BaseLayout pageTitle={` |${pageTitle}|`}>
   <br />
 
   {

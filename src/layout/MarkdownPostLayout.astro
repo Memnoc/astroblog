@@ -4,11 +4,12 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <p><em>{frontmatter.description}</em></p>
-  <p>{frontmatter.pubDate.slice(0, 10)}</p>
-
-  <p>Written by: {frontmatter.author}</p>
-
+  <p class="post-subtitle"><em>{frontmatter.description}</em></p>
+  <br />
+  <div class="post-description-container">
+    <p class="post-description">{frontmatter.pubDate.slice(0, 10)}</p>
+    <p class="post-description">Written by: {frontmatter.author}</p>
+  </div>
   <!-- <img src={frontmatter.postImage} width="300" alt={frontmatter.image.alt} /> -->
 
   <div class="tags">

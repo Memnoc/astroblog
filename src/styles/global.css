@@ -45,22 +45,20 @@ h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
   color: var(--kinda-fucsia);
+  text-decoration-line: underline;
 }
 
 h2 {
-  color: var(--dark-blue);
+  color: var(--kinda-orange);
 
 }
 
 h3 {
   color: var(--kinda-orange)
 }
-
-/* * .dark .post-title-container li a { */ */
-/*   color: var(--kinda-fucsia); */
-/*   background-color: transparent; */
-/*   font-weight: bold; */
-/* } */
+ .date-author {
+   color: var(--kale-green);
+ }
 
 /* nav styles */
 .hamburger {
@@ -109,7 +107,7 @@ h3 {
   }
 
   p {
-    color: var(--dark-blue);
+    color: var(--lighter-gray);
   }
 
   .tag {
@@ -147,6 +145,20 @@ hr.solid {
   color: var(--light-snow);
 }
 
+
+.date-author {
+   color: var(--lighter-gray);
+ }
+
+ .post-description {
+   color: var(--lighter-gray);
+ }
+ 
+.post-subtitle {
+   color: var(--kinda-fucsia);
+   font-size: 1.5rem;
+ }
+/*********************************************** BEGINNING MEDIA QUERIES ************************************/
 @media screen and (min-width: 636px) {
   .nav-links {
     /* margin-left: 5em; */
@@ -165,6 +177,8 @@ hr.solid {
   display: none;
   }
 }
+
+/*********************************************** BEGINNING DARK MODE ************************************/
 /* we set the dark background here */
 .dark body {
   background-color: #2E3440;
@@ -189,6 +203,8 @@ hr.solid {
 
 .dark h1 {
   color: var(--kinda-orange); 
+   text-decoration-line: underline;
+
 }
 
 .dark h2 {
@@ -220,3 +236,16 @@ color: var(--medium-grey);
 .dark .hamburger .line {
   background-color: var(--kinda-orange);
 }
+
+.dark .date-author {
+   color: var(--kale-green);
+ }
+
+ .dark .post-description {
+   color: var(--kinda-fucsia);
+ }
+ 
+.dark .post-subtitle {
+   color: var(--kinda-orange);
+   font-size: 1.5rem;
+ }

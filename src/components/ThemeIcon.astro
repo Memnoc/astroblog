@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 ---
 
 <div id="themeToggle" class="float-right mt-4">
@@ -18,7 +19,7 @@
 
 <style>
   .sun {
-    fill: black;
+    fill: var(--kinda-orange);
   }
   .moon {
     fill: transparent;
@@ -28,7 +29,7 @@
     fill: transparent;
   }
   :global(.dark) .moon {
-    fill: white;
+    fill: var(--yellow);
   }
 </style>
 

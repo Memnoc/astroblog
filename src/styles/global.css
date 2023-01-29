@@ -44,7 +44,7 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-  color: var(--kinda-fucsia);
+  color: var(--kale-green);
   text-decoration-line: underline;
 }
 
@@ -71,7 +71,7 @@ h3 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: var(--kinda-fucsia);
+  background-color: var(--kinda-orange);
 }
 
 .nav-links {
@@ -88,7 +88,7 @@ h3 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--kinda-fucsia);
+  color: var(--kinda-orange);
 }
 
 .expanded {
@@ -97,7 +97,7 @@ h3 {
 
 /* tag styles */
  a {
-    color: var(--kinda-fucsia);
+  color: var(--kinda-orange);
   }
  
   .tags {
@@ -155,7 +155,7 @@ hr.solid {
  }
  
 .post-subtitle {
-   color: var(--kinda-fucsia);
+   color: var(--kinda-orange);
    font-size: 1.5rem;
  }
 /*********************************************** BEGINNING MEDIA QUERIES ************************************/

@@ -25,12 +25,8 @@
   --kinda-fucsia: #b48ead;
 }
 
-html {
-  font-family: sans-serif;
-
-}
 /* we set the light bg here */
-body {
+html, body {
   background-color: var(--medium-grey);
   margin: 0 auto;
   width: 100%;
@@ -40,15 +36,23 @@ body {
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
 }
 
+body {
+  height: 10vh;
+  width: 100vh;
+}
+
 * {
   box-sizing: border-box;
 }
 
+
+
+
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-  color: var(--kale-green);
-  text-decoration-line: underline;
+  color: var(--kinda-orange);
+  text-decoration: underline;
 }
 
 h2 {
@@ -122,26 +126,10 @@ h3 {
     font-size: 1.15em;
     /* background-color: #F8FCFD; */
   }
-
-/* Dividers styles */
-/* Dashed border */
-/* hr.dashed { */
-/*   border-top: 3px dashed #bbb; */
-/* } */
-
-
-/*   border-top: 3px dotted #bbb; */
-/* } */
-
-/* Solid border */
 hr.solid {
   border-top: 1px solid #81a1c1;
 }
 
-
-/*   border-top: 8px solid #bbb; */
-/*   border-radius: 5px; */
-/* } */
 
 /* Greeting Button */
 .greeting-button {
@@ -149,7 +137,10 @@ hr.solid {
   color: var(--light-snow);
 }
 
-
+.quote-text {
+  font-style: italic;
+  font-size: medium;
+}
 .date-author {
    color: var(--lighter-gray);
  }
@@ -159,7 +150,7 @@ hr.solid {
  }
  
 .post-subtitle {
-   color: var(--kinda-orange);
+   color: var(--lazy-blue);
    font-size: 1.5rem;
  }
 /*********************************************** BEGINNING MEDIA QUERIES ************************************/
@@ -250,6 +241,6 @@ color: var(--medium-grey);
  }
  
 .dark .post-subtitle {
-   color: var(--kinda-orange);
+   color: var(--kale-green);
    font-size: 1.5rem;
  }

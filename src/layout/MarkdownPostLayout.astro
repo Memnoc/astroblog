@@ -10,8 +10,10 @@ const { frontmatter } = Astro.props;
     <p class="post-description">{frontmatter.pubDate.slice(0, 10)}</p>
     <p class="post-description">Written by: {frontmatter.author}</p>
   </div>
+  <br />
   <!-- <img src={frontmatter.postImage} width="300" alt={frontmatter.image.alt} /> -->
 
+  <slot />
   <div class="tags">
     {
       frontmatter.tags.map((tag) => (
@@ -21,6 +23,4 @@ const { frontmatter } = Astro.props;
       ))
     }
   </div>
-
-  <slot />
 </BaseLayout>

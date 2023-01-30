@@ -5,9 +5,8 @@ const randomQuote = data.content;
 ---
 
 <!-- Data fetched at build can be rendered in HTML -->
-<h1>Quote of the day</h1>
-{console.log(randomQuote.content)}
-<h2>{randomQuote}</h2>
+<h2>Quote of the day</h2>
+<p class="quote-text">{randomQuote}</p>
 
 <!-- Data fetched at build can be passed to components as props -->
 <!-- <Greetings quote={randomQuote} /> -->

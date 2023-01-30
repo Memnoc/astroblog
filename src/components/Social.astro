@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon";
 const { platform, username } = Astro.props;
+import "../styles/global.css";
 ---
 
 <a href={`https://www.${platform}.com/${username}`}>
@@ -17,6 +18,6 @@ const { platform, username } = Astro.props;
   [astro-icon] {
     width: 30px;
     height: 30px;
-    color: #81a1c1;
+    color: var(--kinda-orange);
   }
 </style>

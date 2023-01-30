@@ -3,12 +3,12 @@ import BlogPost from "../components/BlogPost.astro";
 import BaseLayout from "../layout/BaseLayout.astro";
 import "../styles/global.css";
 
-const pageTitle = "The Tech Stuff";
+const pageTitle = "Articles";
 
 const allPosts = await Astro.glob("../pages/posts/*.md");
 ---
 
-<BaseLayout pageTitle={` |${pageTitle}|`}>
+<BaseLayout>
   <br />
 
   {

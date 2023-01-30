@@ -1,5 +1,8 @@
 /* Nord theme palette -> https://www.nordtheme.com/docs/colors-and-palettes*/
 :root {
+/*LazyVim palette*/
+  --lazy-blue: #347ee9;
+  --lazy-bg: #1E2030;
 /* Polar Night */
   --almost-black: #2E3440;
   --dark-grey: #3B4252;
@@ -49,7 +52,7 @@ h1 {
 }
 
 h2 {
-  color: var(--kinda-orange);
+  color: var(--lazy-blue);
 
 }
 
@@ -71,7 +74,7 @@ h3 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: var(--kinda-orange);
+  background-color: var(--lazy-blue);
 }
 
 .nav-links {
@@ -87,8 +90,9 @@ h3 {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
+  text-decoration-line:underline;
   text-transform: uppercase;
-  color: var(--kinda-orange);
+  color: var(--lazy-blue);
 }
 
 .expanded {
@@ -181,7 +185,7 @@ hr.solid {
 /*********************************************** BEGINNING DARK MODE ************************************/
 /* we set the dark background here */
 .dark body {
-  background-color: #2E3440;
+  background-color: var(--lazy-bg);
   color: #fff;
 }
 
@@ -190,7 +194,7 @@ hr.solid {
 }
 
 .dark [astro-icon] {
-  color: var(--kinda-orange);
+  color: var(--yellow);
 }
 
 .dark a {
@@ -220,7 +224,7 @@ color: var(--medium-grey);
 }
 
 .dark hr.solid {
-  border-top: 1px solid var(--kinda-orange);
+  border-top: 1px solid var(--yellow);
 } 
 
 /* Greeting Button */
@@ -238,7 +242,7 @@ color: var(--medium-grey);
 }
 
 .dark .date-author {
-   color: var(--kale-green);
+   color: var(--kinda-fucsia);
  }
 
  .dark .post-description {

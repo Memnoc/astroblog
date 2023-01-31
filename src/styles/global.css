@@ -34,11 +34,13 @@ html, body {
   padding: 1rem;
   line-height: 1.5;
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+
 }
 
 body {
   height: 10vh;
   width: 100vh;
+
 }
 
 * {

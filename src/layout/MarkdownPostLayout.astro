@@ -1,19 +1,25 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import { getReadingTime } from "../lib/readingtime.js";
 const { frontmatter } = Astro.props;
 ---
 
+<!--Inside a post-->
 <BaseLayout pageTitle={frontmatter.title}>
   <p class="post-subtitle"><em>{frontmatter.description}</em></p>
   <br />
   <div class="post-description-container">
     <p class="post-description">{frontmatter.pubDate.slice(0, 10)}</p>
     <p class="post-description">Written by: {frontmatter.author}</p>
+    <p class="post-description">
+      Reading time {getReadingTime(Astro.props.compiledContent())} minutes
+    </p>
   </div>
   <br />
   <!-- <img src={frontmatter.postImage} width="300" alt={frontmatter.image.alt} /> -->
 
   <slot />
+
   <div class="tags">
     {
       frontmatter.tags.map((tag) => (

@@ -126,6 +126,7 @@ h3 {
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
+    color: var(--kinda-orange);
     /* background-color: #F8FCFD; */
   }
 hr.solid {
@@ -148,7 +149,7 @@ hr.solid {
  }
 
  .post-description {
-   color: var(--lighter-gray);
+   color: var(--kinda-orange);
  }
  
 .post-subtitle {
@@ -245,4 +246,8 @@ color: var(--medium-grey);
 .dark .post-subtitle {
    color: var(--kale-green);
    font-size: 1.5rem;
+ }
+
+ .dark .tag {
+   color: var(--yellow);
  }

@@ -5,6 +5,7 @@ pubDate: '2022-07-01'
 description: 'Why astro can be the next React.js'
 author: 'Matteo Stara'
 tags: ["trends", "typescript", "astro", "frontend"]
+
 ---
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
@@ -18,6 +19,12 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
 
 ## What's next
+
+```javascript
+const example = x => {
+    console.log("test");
+  }
+````
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.

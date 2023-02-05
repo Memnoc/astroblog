@@ -98,7 +98,7 @@ h3 {
   font-weight: bold;
   text-decoration-line:underline;
   text-transform: uppercase;
-  color: var(--lazy-blue);
+  color: var(--kale-green);
 }
 
 .expanded {
@@ -175,6 +175,31 @@ hr.solid {
   display: none;
   }
 }
+/***********************************************   CODE FENCES FORMATTING STYLES ************************************/
+
+
+pre {
+  padding: 8px 16px;
+  overflow: auto;
+  border-radius: 4px;
+  box-shadow: 3px 3px var(--dark-grey);
+  /* background: #343434; */
+}
+code {
+  padding: 4px;
+  border-radius: 4px;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  direction: ltr;
+  font-size: 14px;
+}
+pre > code {
+  padding: 0;
+  line-height: 1.5;
+  word-break: normal;
+  white-space: pre;
+  word-spacing: normal;
+  tab-size: 4;
+}
 
 /*********************************************** BEGINNING DARK MODE ************************************/
 /* we set the dark background here */
@@ -184,7 +209,7 @@ hr.solid {
 }
 
 .dark .nav-links a {
-  color: var(--kinda-orange);
+  color: var(--yellow);
 }
 
 .dark [astro-icon] {
@@ -250,4 +275,4 @@ color: var(--medium-grey);
 
  .dark .tag {
    color: var(--yellow);
- }
+ } 

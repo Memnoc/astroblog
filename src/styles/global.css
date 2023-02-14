@@ -1,4 +1,6 @@
 /* Nord theme palette -> https://www.nordtheme.com/docs/colors-and-palettes*/
+@import "./catppuccin-palette.css";
+
 :root {
 /*LazyVim palette*/
   --lazy-blue: #347ee9;
@@ -25,9 +27,10 @@
   --kinda-fucsia: #b48ead;
 }
 
+
 /* we set the light bg here */
 html, body {
-  background-color: var(--medium-grey);
+  background-color: var(--ctp-mocha-base);
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;

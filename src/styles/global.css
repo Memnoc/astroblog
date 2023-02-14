@@ -128,10 +128,6 @@ h3 {
     color: var(--lazy-blue);
   }
 
-  .post-title-container li a {
-  }
-
-
 /* tag styles */
  a {
   color: var(--kinda-orange);

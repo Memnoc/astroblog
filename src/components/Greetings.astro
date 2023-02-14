@@ -1,7 +1,8 @@
 ---
+import QuoteOfTheDay from "./QuoteOfTheDay";
 import Quotes from "./Quotes.astro";
 ---
 
 <footer>
-  <Quotes />
+  <QuoteOfTheDay client:only="svelte" />
 </footer>

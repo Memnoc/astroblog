@@ -104,6 +104,30 @@ h3 {
 .expanded {
   display: block;
 }
+/*Blog post list styles*/
+  .post-title-container {
+    display: flex;
+    padding: 0;
+  }
+
+  .list-disc {
+    list-style-type: none;
+
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  a {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    color: var(--lazy-blue);
+  }
+
+  .post-title-container li a {
+  }
+
 
 /* tag styles */
  a {

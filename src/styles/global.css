@@ -1,4 +1,4 @@
-/* Nord theme palette -> https://www.nordtheme.com/docs/colors-and-palettes*/
+/* Nord theme palette -> https://www.nordtheme.com/docs/colors-and-palettes */
 @import "./catppuccin-palette.css";
 
 :root {
@@ -36,21 +36,16 @@ html, body {
   padding: 1rem;
   line-height: 1.5;
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
-
 }
 
 body {
   height: 10vh;
   width: 100vh;
-
 }
 
 * {
   box-sizing: border-box;
 }
-
-
-
 
 h1 {
   margin: 1rem 0;
@@ -61,15 +56,15 @@ h1 {
 
 h2 {
   color: var(--lazy-blue);
-
 }
 
 h3 {
   color: var(--kinda-orange)
 }
- .date-author {
-   color: var(--ctp-mocha-teal);
- }
+
+.date-author {
+  color: var(--ctp-mocha-teal);
+}
 
 /* nav styles */
 .hamburger {
@@ -98,7 +93,6 @@ h3 {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  text-decoration-line:underline;
   text-transform: uppercase;
   color: var(--ctp-mocha-teal);
 }
@@ -106,55 +100,55 @@ h3 {
 .expanded {
   display: block;
 }
+
 /*Blog post list styles*/
-  .post-title-container {
-    display: flex;
-    padding: 0;
-  }
+.post-title-container {
+   display: flex;
+   padding: 0;
+}
 
-  .list-disc {
-    list-style-type: none;
+.list-disc {
+   list-style-type: none;
+   flex-direction: row;
+   align-items: flex-start;
+}
 
-    flex-direction: row;
-    align-items: flex-start;
-  }
+a {
+  font-size: 1.5rem;
+}
 
-  a {
-    font-size: 1.5rem;
-  }
-
-  .description {
-    color: var(--lazy-blue);
-  }
+.description {
+  color: var(--lazy-blue);
+}
 
 /* tag styles */
- a {
+a {
   color: var(--kinda-orange);
-  }
+}
  
-  .tags {
-    display: flex; 
-    flex-wrap: wrap; 
-    margin: 0 auto;  
-  }
+.tags {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin: 0 auto;  
+}
 
-  p {
-    color: var(--lighter-gray);
-  }
+p {
+  color: var(--lighter-gray);
+}
 
-  .tag {
-    margin: 0.25em;
-    /* border: dotted 1px #a1a1a1; */
-    border-radius: .5em;
-    padding: .5em 1em;
-    font-size: 1.15em;
-    color: var(--kinda-orange);
-    /* background-color: #F8FCFD; */
-  }
+.tag {
+  margin: 0.25em;
+  /* border: dotted 1px #a1a1a1; */
+  border-radius: .5em;
+  padding: .5em 1em;
+  font-size: 1.15em;
+  color: var(--kinda-orange);
+  /* background-color: #F8FCFD; */
+}
+
 hr.solid {
   border-top: 1px solid #81a1c1;
 }
-
 
 /* Greeting Button */
 .greeting-button {
@@ -178,28 +172,31 @@ hr.solid {
    color: var(--lazy-blue);
    font-size: 1.5rem;
  }
-/*********************************************** BEGINNING MEDIA QUERIES ************************************/
+
+.profile-image {
+  float: right;
+}
+/************************************************  BEGINNING MEDIA QUERIES  *******************************************/
 @media screen and (min-width: 636px) {
   .nav-links {
-    /* margin-left: 5em; */
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
+  /* margin-left: 5em; */
+  display: block;
+  position: static;
+  width: auto;
+  background: none;
+}
 
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
+.nav-links a {
+  display: inline-block;
+  padding: 15px 20px;
+}
 
 .hamburger {
   display: none;
   }
 }
-/***********************************************   CODE FENCES FORMATTING STYLES ************************************/
 
-
+/***********************************************   CODE FENCES FORMATTING STYLES  *************************************/
 pre {
   padding: 8px 16px;
   overflow: auto;
@@ -207,6 +204,7 @@ pre {
   box-shadow: 3px 3px var(--dark-grey);
   /* background: #343434; */
 }
+
 code {
   padding: 4px;
   border-radius: 4px;
@@ -214,6 +212,7 @@ code {
   direction: ltr;
   font-size: 14px;
 }
+
 pre > code {
   padding: 0;
   line-height: 1.5;
@@ -248,8 +247,6 @@ pre > code {
 
 .dark h1 {
   color: var(--kinda-orange); 
-   text-decoration-line: underline;
-
 }
 
 .dark h2 {
@@ -257,7 +254,7 @@ pre > code {
 }
 
 .dark h3 {
-color: var(--medium-grey);
+  color: var(--medium-grey);
 }
 
 .dark .description {

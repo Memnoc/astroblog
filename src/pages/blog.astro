@@ -2,15 +2,11 @@
 import BlogPost from "../components/BlogPost.astro";
 import BaseLayout from "../layout/BaseLayout.astro";
 import "../styles/global.css";
-
 const pageTitle = "Articles";
-
 const allPosts = await Astro.glob("../pages/posts/*.md");
 ---
 
 <BaseLayout>
-  <br />
-
   {
     allPosts.map((post) => (
       <BlogPost

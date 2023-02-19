@@ -29,7 +29,7 @@
 
 /* we set the light bg here */
 html, body {
-  background-color: var(--ctp-mocha-base);
+  /* background-color: var(--ctp-latte-base); */
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
@@ -225,7 +225,7 @@ pre > code {
 /*********************************************** BEGINNING DARK MODE ************************************/
 /* we set the dark background here */
 .dark body {
-  background-color: var(--lazy-bg);
+  background-color: var(--ctp-mocha-base);
   color: #fff;
 }
 
@@ -247,6 +247,7 @@ pre > code {
 
 .dark h1 {
   color: var(--kinda-orange); 
+   text-decoration-line: underline;
 }
 
 .dark h2 {
@@ -271,8 +272,9 @@ pre > code {
   color: var(--lighter-gray);
 }
 
-#themeToggle {
+.theme-toggle {
   color: var(--ctp-mocha-yellow);
+  float: right;
 }
 
 .dark .hamburger .line {

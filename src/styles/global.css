@@ -38,6 +38,10 @@ html, body {
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
 }
 
+.light html {
+  background-color: var(--ctp-latte-base);
+}
+
 body {
   height: 10vh;
   width: 100vh;

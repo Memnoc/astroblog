@@ -39,7 +39,7 @@ html, body {
 }
 
 .light html {
-  background-color: var(--ctp-latte-base);
+  background-color: var(--ctp-latte-crust);
 }
 
 body {
@@ -54,20 +54,19 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-  color: var(--kinda-orange);
-  text-decoration: underline;
+  color: var(--ctp-latte-lavender);
 }
 
 h2 {
-  color: var(--lazy-blue);
+  color: var(--ctp-latte-lavender);
 }
 
 h3 {
-  color: var(--kinda-orange)
+  color: var(--ctp-latte-lavender)
 }
 
 .date-author {
-  color: var(--ctp-mocha-teal);
+  color: var(--ctp-latte-maroon);
 }
 
 /* nav styles */
@@ -81,7 +80,7 @@ h3 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: var(--lazy-blue);
+  background-color: var(--ctp-latte-lavender);
 }
 
 .nav-links {
@@ -98,7 +97,7 @@ h3 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--ctp-mocha-teal);
+  color: var(--ctp-latte-yellow);
 }
 
 .expanded {
@@ -118,16 +117,17 @@ h3 {
 }
 
 a {
-  font-size: 1.5rem;
 }
 
 .description {
-  color: var(--lazy-blue);
+  color: var(--ctp-latte-lavender);
 }
 
 /* tag styles */
 a {
-  color: var(--kinda-orange);
+  color: var(--ctp-latte-lavender);
+  font-size: 1rem;
+  text-decoration: none;
 }
  
 .tags {
@@ -146,7 +146,7 @@ p {
   border-radius: .5em;
   padding: .5em 1em;
   font-size: 1.15em;
-  color: var(--kinda-orange);
+  color: var(--ctp-latte-lavender);
   /* background-color: #F8FCFD; */
 }
 
@@ -156,24 +156,24 @@ hr.solid {
 
 /* Greeting Button */
 .greeting-button {
-  background-color: var(--ctp-mocha-teal);
+  background-color: var(--ctp-latte-yellow);
   color: var(--light-snow);
 }
 
 .quote-text {
   font-style: italic;
   font-size: medium;
+  color: var(--ctp-latte-lavender);
 }
-.date-author {
-   color: var(--lighter-gray);
- }
+
 
  .post-description {
-   color: var(--kinda-orange);
+   color: var(--ctp-latte-lavender);
+   margin: 0;
  }
  
 .post-subtitle {
-   color: var(--lazy-blue);
+   color: var(--ctp-latte-lavender);
    font-size: 1.5rem;
  }
 
@@ -242,7 +242,7 @@ pre > code {
 }
 
 .dark a {
-  color: var(--ctp-mocha-teal);
+  color: var(--ctp-latte-yellow);
 }
 
 .dark p {
@@ -250,12 +250,11 @@ pre > code {
 }
 
 .dark h1 {
-  color: var(--kinda-orange); 
-   text-decoration-line: underline;
+  color: var(--ctp-latte-lavender); 
 }
 
 .dark h2 {
-  color: var(--ctp-mocha-teal); 
+  color: var(--ctp-latte-yellow); 
 }
 
 .dark h3 {
@@ -282,19 +281,19 @@ pre > code {
 }
 
 .dark .hamburger .line {
-  background-color: var(--kinda-orange);
+  background-color: var(--ctp-latte-lavender);
 }
 
 .dark .date-author {
-   color: var(--kinda-fucsia);
+   color: var(--ctp-mocha-mauve);
  }
 
  .dark .post-description {
-   color: var(--kinda-fucsia);
+   color: var(--ctp-mocha-mauve);
  }
  
 .dark .post-subtitle {
-   color: var(--ctp-mocha-teal);
+   color: var(--ctp-latte-yellow);
    font-size: 1.5rem;
  }
 

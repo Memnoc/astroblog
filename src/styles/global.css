@@ -72,6 +72,7 @@ h3 {
 /* nav styles */
 .hamburger {
   padding-right: 20px;
+  padding-bottom:20px;
   cursor: pointer;
 }
 
@@ -177,6 +178,7 @@ hr.solid {
 
 .profile-image {
   float: right;
+  margin-right:15%;
 }
 /************************************************  BEGINNING MEDIA QUERIES  *******************************************/
 @media screen and (min-width: 636px) {
@@ -276,6 +278,7 @@ pre > code {
 .theme-toggle {
   color: var(--ctp-mocha-yellow);
   float: right;
+  margin-right: 10%;
 }
 
 .dark .hamburger .line {

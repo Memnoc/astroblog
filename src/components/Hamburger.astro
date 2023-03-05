@@ -1,8 +1,14 @@
 ---
+import { Icon } from "astro-icon";
 ---
 
+<style lang="css">
+  [astro-icon] {
+    width: 30px;
+    height: 30px;
+    color: var(--ctp-latte-yellow);
+  }
+</style>
 <div class="hamburger">
-  <span class="line"></span>
-  <span class="line"></span>
-  <span class="line"></span>
+  <Icon name={"ri:menu-unfold-line"} />
 </div>

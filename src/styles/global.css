@@ -87,6 +87,7 @@ h3 {
   width: 100%;
   display: none;
   margin-left: -20px;
+  margin-bottom: 40px;
 }
 
 .nav-links a {
@@ -114,9 +115,6 @@ h3 {
    list-style-type: none;
    flex-direction: row;
    align-items: flex-start;
-}
-
-a {
 }
 
 .description {

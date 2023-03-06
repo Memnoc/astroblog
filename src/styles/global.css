@@ -36,6 +36,7 @@ html, body {
   padding: 1rem;
   line-height: 1.5;
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+  color: var(--ctp-latte-text)
 }
 
 .light html {
@@ -87,8 +88,8 @@ h3 {
 .nav-links {
   width: 100%;
   display: none;
-  margin-left: -20px;
-  margin-bottom: 40px;
+  margin: 40px 0 18px 0;  border: 1.5px var(--ctp-latte-flamingo) solid;
+  border-radius: 6px;
 }
 
 .nav-links a {
@@ -124,9 +125,10 @@ h3 {
 
 /* tag styles */
 a {
-  color: var(--ctp-latte-lavender);
+  color: var(--ctp-latte-pink);
   font-size: 1rem;
   text-decoration: none;
+  font-weight: bold;
 }
  
 .tags {
@@ -136,7 +138,7 @@ a {
 }
 
 p {
-  color: var(--lighter-gray);
+  color: var(--ctp-latte-text);
 }
 
 .tag {
@@ -169,6 +171,7 @@ hr.solid {
  .post-description {
    color: var(--ctp-latte-lavender);
    margin: 0;
+   font-weight: bold;
  }
  
 .post-subtitle {
@@ -178,7 +181,7 @@ hr.solid {
 
 .profile-image {
   float: right;
-  margin-right:15%;
+  margin:10% 10% 0 0;
 }
 /************************************************  BEGINNING MEDIA QUERIES  *******************************************/
 @media screen and (min-width: 636px) {
@@ -230,7 +233,12 @@ pre > code {
 /* we set the dark background here */
 .dark body {
   background-color: var(--ctp-mocha-base);
-  color: #fff;
+  color: var(--ctp-mocha-text)
+}
+
+.dark .nav-links {
+  border: 1.5px solid var(--ctp-mocha-yellow);
+  border-radius: 6px;
 }
 
 .dark .nav-links a {
@@ -246,7 +254,7 @@ pre > code {
 }
 
 .dark p {
-  color: var(--medium-grey);
+  color: var(--ctp-mocha-subtext1);
 }
 
 .dark h1 {
@@ -258,7 +266,7 @@ pre > code {
 }
 
 .dark h3 {
-  color: var(--medium-grey);
+  color: var(---ctp-mocha-subtext1);
 }
 
 .dark .description {
@@ -271,8 +279,8 @@ pre > code {
 
 /* Greeting Button */
 .dark .greeting-button {
-  background-color: var(--kinda-fucsia);
-  color: var(--lighter-gray);
+  background-color: var(--ctp-mocha-pink);
+  color: var(--ctp-mocha-text);
 }
 
 .theme-toggle {

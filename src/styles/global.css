@@ -167,7 +167,10 @@ hr.solid {
   color: var(--ctp-latte-lavender);
 }
 
-
+.post-image {
+  margin: 10px 0 10px 0;
+  box-shadow: 0 2px 4px 0 var(--ctp-latte-overlay1), 0 3px 10px 0 var(--ctp-latte-overlay2);
+}
  .post-description {
    color: var(--ctp-latte-lavender);
    margin: 0;
@@ -249,6 +252,9 @@ pre > code {
   color: var(--ctp-mocha-yellow);
 }
 
+.dark .post-image {
+  box-shadow: 0 2px 4px 0 var(--ctp-mocha-base), 0 3px 10px 0 var(--ctp-mocha-mantle);
+}
 .dark a {
   color: var(--ctp-latte-yellow);
 }

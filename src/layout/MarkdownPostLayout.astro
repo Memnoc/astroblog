@@ -14,7 +14,12 @@ const { frontmatter } = Astro.props;
       Reading time {getReadingTime(Astro.props.compiledContent())} minutes
     </p>
   </div>
-  <!-- <img src={frontmatter.postImage} width="300" alt={frontmatter.image.alt} /> -->
+  <img
+    class="post-image"
+    src={frontmatter.image}
+    width="100%"
+    alt={frontmatter.image.alt}
+  />
   <slot />
   <div class="tags">
     {

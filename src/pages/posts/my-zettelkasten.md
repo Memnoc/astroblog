@@ -4,7 +4,7 @@ title: 'Zettelkasten: your second brain'
 pubDate: '2023-13-01'
 author: 'Matteo Stara'
 tags: ["trends", "zettelkasten", "notes", "second-brain"]
-image: ../../../public/postits.jpg 
+image: ../../../public/images/postits.jpg
 ---
 ---
 
@@ -19,21 +19,21 @@ With time, he perfected the system and streamlined it into some fundamentals pil
 
 These notes are card types and they all follow certain rules.
 
-**Fleeting notes**
+<section>Fleeting notes</section>
 
 Random thougts, media consumption (videos, articles, tv shows, etc.), conversations, studies, books, etc.
 
-**Literature notes**
+<section>Literature notes</section>
 
 A summary of our understanding of the sources we have consumed in the fleeting notes. It's important not to copy the source, but re-elaborating with your own understanding
 
-**Permanent notes**
+<section>Permanent notes</section>
 
 This is where the consolidation of the two previous phases happens, and the output gets close to a final one, that could for example mean the publication of an article or a book or a video, etc.
 
 I felt like a piece was missing, at least for me and at least for now, so I added a further step to keep track of results and outputs.
 
-**Finis Effectus**
+<section>Finis Effectus</section>
 
 It's latin for "final result" and it's meant to be an index of all the materials published and shared with the rest of the world. I know, it sounds like an Harry Potter potion but in reality, it's a great way to keep track of what you do with your studies.
 

@@ -88,7 +88,7 @@ h3 {
 .nav-links {
   width: 100%;
   display: none;
-  margin: 40px 0 18px 0;  border: 1.5px var(--ctp-latte-flamingo) solid;
+  margin: 40px 0 18px 0;  border: 3px var(--ctp-latte-flamingo) solid;
   border-radius: 6px;
 }
 
@@ -141,6 +141,10 @@ p {
   color: var(--ctp-latte-text);
 }
 
+section {
+  color: var(--ctp-latte-yellow);
+  font-weight: bold;
+}
 .tag {
   margin: 0.25em;
   /* border: dotted 1px #a1a1a1; */
@@ -192,7 +196,7 @@ hr.solid {
   /* margin-left: 5em; */
   display: block;
   position: static;
-  width: auto;
+  width: fit-content;
   background: none;
 }
 
@@ -218,7 +222,7 @@ pre {
 code {
   padding: 4px;
   border-radius: 4px;
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-family: Consolas, Monaco, 'Andale Mono'v, monospace;
   direction: ltr;
   font-size: 14px;
 }
@@ -240,7 +244,7 @@ pre > code {
 }
 
 .dark .nav-links {
-  border: 1.5px solid var(--ctp-mocha-yellow);
+  border: 3px solid var(--ctp-mocha-yellow);
   border-radius: 6px;
 }
 

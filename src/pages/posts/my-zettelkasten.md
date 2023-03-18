@@ -4,7 +4,7 @@ title: 'Zettelkasten: your second brain'
 pubDate: '2023-13-01'
 author: 'Matteo Stara'
 tags: ["trends", "zettelkasten", "notes", "second-brain"]
-image: ../../../public/images/postits.jpg
+image: /images/postits.jpg
 ---
 ---
 
